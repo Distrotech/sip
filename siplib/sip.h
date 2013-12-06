@@ -210,7 +210,7 @@ extern "C" {
 
 
 /* The name of the sip module. */
-#define SIP_MODULE_NAME     "@CFG_MODULE_NAME@"
+#define SIP_MODULE_NAME     "sip"
 
 
 /*
