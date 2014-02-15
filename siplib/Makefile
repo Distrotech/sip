@@ -41,7 +41,7 @@ install: $(TARGET)
 	cp -f $(TARGET) $(DESTDIR)/usr/lib/python2.7/site-packages/$(TARGET)
 	strip $(DESTDIR)/usr/lib/python2.7/site-packages/$(TARGET)
 	@test -d $(DESTDIR)/usr/include/python2.7 || mkdir -p $(DESTDIR)/usr/include/python2.7
-	cp -f /usr/src/sip/siplib/sip.h $(DESTDIR)/usr/include/python2.7/sip.h
+	cp -f sip.h $(DESTDIR)/usr/include/python2.7/sip.h
 
 clean:
 	-rm -f $(TARGET)
